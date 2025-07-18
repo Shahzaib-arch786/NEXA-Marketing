@@ -28,13 +28,13 @@ export default [
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
       ...jsxA11y.configs.recommended.rules,
-      
+
       // React Refresh rules
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
-      
+
       // General JavaScript rules
       'no-unused-vars': [
         'error',
@@ -52,11 +52,11 @@ export default [
       'no-var': 'error',
       'object-shorthand': 'error',
       'prefer-arrow-callback': 'error',
-      
+
       // React specific rules
       'react-hooks/exhaustive-deps': 'warn',
       'react-hooks/rules-of-hooks': 'error',
-      
+
       // Accessibility rules
       'jsx-a11y/alt-text': 'error',
       'jsx-a11y/anchor-has-content': 'error',
@@ -75,12 +75,12 @@ export default [
       'jsx-a11y/role-has-required-aria-props': 'error',
       'jsx-a11y/role-supports-aria-props': 'error',
       'jsx-a11y/scope': 'error',
-      
+
       // Code quality rules
       'eqeqeq': ['error', 'always'],
       'curly': ['error', 'all'],
       'brace-style': ['error', '1tbs'],
-      'comma-dangle': ['error', 'es5'],
+      'comma-dangle': ['error', 'always-multiline'],
       'quotes': ['error', 'single', { avoidEscape: true }],
       'semi': ['error', 'always'],
       'no-trailing-spaces': 'error',

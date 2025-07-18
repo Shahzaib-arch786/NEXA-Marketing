@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const HomeDB = () => {
   return (
@@ -9,7 +9,7 @@ const HomeDB = () => {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             <span className="motion-preset-slide-down-left-lg">
               Welcome To <span className="text-cyan-600">NEXA</span>
-            </span>{" "}
+            </span>{' '}
             <br />
             Grow Your Business with Expert Digital Marketing
           </h1>
@@ -19,7 +19,7 @@ const HomeDB = () => {
             <span className="block mt-2 text-sm sm:text-base md:text-lg lg:text-xl">
               Our solutions are tailored for startups, SMEs, and enterprises.
               <span className="hidden sm:inline">
-                {" "}
+                {' '}
                 We focus on measurable growth and ROI, ensuring your business
                 thrives in today’s digital landscape.
               </span>

@@ -18,11 +18,10 @@
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
     "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
-    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\"",
     "clean": "rm -rf dist",
-    "build:analyze": "vite build --mode analyze",
-    "type-check": "tsc --noEmit"
+    "build:analyze": "vite build --mode analyze"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
@@ -30,7 +29,6 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-error-boundary": "^4.1.2",
-    "react-helmet-async": "^2.0.5",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
@@ -47,7 +45,6 @@
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss-motion": "^1.1.1",
-    "typescript": "^5.7.3",
     "vite": "^7.0.4",
     "vite-bundle-analyzer": "^0.18.0"
   },

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Cards = ({ imgSrc, imgAlt, title, description, button, link }) => {
   return (

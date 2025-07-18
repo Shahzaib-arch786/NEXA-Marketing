@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const WhyUs = () => {
   return (
     <div className="bg-white px-4 py-6">
       <h1 className="text-2xl md:text-4xl text-center font-bold text-gray-950 mb-6 md:mb-10">
-        Why Choose Us As Your{" "}
+        Why Choose Us As Your{' '}
         <span className="text-cyan-600">Digital media</span> Partner In
         Pakistan!
       </h1>

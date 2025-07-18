@@ -1,37 +1,37 @@
-import React from "react";
+import React from 'react';
 
 const plans = [
   {
-    title: "Starter",
-    price: "$ 49.99",
+    title: 'Starter',
+    price: '$ 49.99',
     features: [
-      "Basic SEO Setup",
-      "1 Social Media Platform",
-      "Monthly Reporting",
-      "Email Support",
+      'Basic SEO Setup',
+      '1 Social Media Platform',
+      'Monthly Reporting',
+      'Email Support',
     ],
   },
   {
-    title: "Professional",
-    price: "$ 99.99",
+    title: 'Professional',
+    price: '$ 99.99',
     features: [
-      "Advanced SEO Optimization",
-      "3 Social Media Platforms",
-      "Weekly Reports",
-      "Ad Campaign Management",
-      "Priority Support",
+      'Advanced SEO Optimization',
+      '3 Social Media Platforms',
+      'Weekly Reports',
+      'Ad Campaign Management',
+      'Priority Support',
     ],
     popular: true,
   },
   {
-    title: "Enterprise",
-    price: "$ 199.99",
+    title: 'Enterprise',
+    price: '$ 199.99',
     features: [
-      "Complete Digital Strategy",
-      "All Social Media Platforms",
-      "Daily Reporting & Insights",
-      "Dedicated Account Manager",
-      "24/7 Premium Support",
+      'Complete Digital Strategy',
+      'All Social Media Platforms',
+      'Daily Reporting & Insights',
+      'Dedicated Account Manager',
+      '24/7 Premium Support',
     ],
   },
 ];
@@ -54,8 +54,8 @@ const Pricing = () => {
             key={index}
             className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 ${
               plan.popular
-                ? "bg-cyan-600 text-white border-cyan-600 scale-105"
-                : "bg-white text-gray-800 border-gray-200"
+                ? 'bg-cyan-600 text-white border-cyan-600 scale-105'
+                : 'bg-white text-gray-800 border-gray-200'
             }`}
           >
             {plan.popular && (
@@ -76,8 +76,8 @@ const Pricing = () => {
             <button
               className={`w-full py-2 px-4 rounded-lg font-semibold ${
                 plan.popular
-                  ? "bg-white text-cyan-600 hover:bg-gray-100"
-                  : "bg-cyan-600 text-white hover:bg-cyan-700"
+                  ? 'bg-white text-cyan-600 hover:bg-gray-100'
+                  : 'bg-cyan-600 text-white hover:bg-cyan-700'
               }`}
             >
               Get Started

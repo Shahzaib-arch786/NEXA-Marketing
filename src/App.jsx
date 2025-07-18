@@ -1,27 +1,27 @@
-import "./App.css";
-import Dashboard from "./Pages/Dashboard";
-import { useEffect, useState } from 'react'
+import './App.css';
+import Dashboard from './Pages/Dashboard';
+import { useEffect, useState } from 'react';
 
 
 function App() {
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem('theme') === 'dark'
-  )
+    localStorage.getItem('theme') === 'dark',
+  );
 
   useEffect(() => {
-    const root = document.documentElement
+    const root = document.documentElement;
     if (darkMode) {
-      root.classList.add('dark')
-      localStorage.setItem('theme', 'dark')
+      root.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
     } else {
-      root.classList.remove('dark')
-      localStorage.setItem('theme', 'light')
+      root.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
     }
-  }, [darkMode])
+  }, [darkMode]);
   return (
     <>
       <Dashboard darkMode={darkMode} setDarkMode={setDarkMode} />
-      
+
     </>
   );
 }

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Button from '../Components/Button'
+import React, { Component } from 'react';
+import Button from '../Components/Button';
 
 const OurCommit = () => {
   return (

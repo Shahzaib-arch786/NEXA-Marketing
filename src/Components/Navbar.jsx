@@ -1,8 +1,8 @@
-import React from "react";
-import { House, Cpu, BellRing, CircleUser } from "lucide-react";
+import React from 'react';
+import { House, Cpu, BellRing, CircleUser } from 'lucide-react';
 
-const Navbar = (darkMode, setDarkMode) => {
-  
+const Navbar = ({ darkMode, setDarkMode }) => {
+
 
   return (
     <div>
@@ -112,15 +112,15 @@ const Navbar = (darkMode, setDarkMode) => {
                 type="checkbox"
                 onChange={(e) => {
                   document.documentElement.setAttribute(
-                    "data-theme",
-                    e.target.checked ? "synthwave" : "light"
+                    'data-theme',
+                    e.target.checked ? 'synthwave' : 'light',
                   );
                   localStorage.setItem(
-                    "theme",
-                    e.target.checked ? "synthwave" : "light"
+                    'theme',
+                    e.target.checked ? 'synthwave' : 'light',
                   );
                 }}
-                defaultChecked={localStorage.getItem("theme") === "synthwave"}
+                defaultChecked={localStorage.getItem('theme') === 'synthwave'}
               />
               <svg
                 className="swap-on fill-current w-6 h-6"
