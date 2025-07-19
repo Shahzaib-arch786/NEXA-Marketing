@@ -38,7 +38,7 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className="bg-white min-h-screen px-6 py-16">
+    <div className="bg-white min-h-screen px-6 py-16" id='Price'>
       <div className="text-center mb-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
           Choose Your <span className="text-cyan-600">Plan</span>
@@ -52,7 +52,7 @@ const Pricing = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 ${
+            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white ${
               plan.popular
                 ? 'bg-cyan-600 text-white border-cyan-600 scale-105'
                 : 'bg-white text-gray-800 border-gray-200'
@@ -74,7 +74,7 @@ const Pricing = () => {
               ))}
             </ul>
             <button
-              className={`w-full py-2 px-4 rounded-lg font-semibold ${
+              className={`w-full py-2 px-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 ${
                 plan.popular
                   ? 'bg-white text-cyan-600 hover:bg-gray-100'
                   : 'bg-cyan-600 text-white hover:bg-cyan-700'

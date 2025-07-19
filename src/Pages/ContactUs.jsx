@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id='Contact'>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center min-h-screen gap-8 px-6 py-12">
         {/* Contact Form Section */}
         <div className="text-gray-800 order-2 md:order-1 w-full max-w-xl mx-auto px-2 sm:px-4">
@@ -53,6 +53,7 @@ const ContactUs = () => {
           <img
             src="src/assets/contactUs.jpg"
             alt="Contact Us"
+            loading='lazy'
             className="w-full max-w-md md:max-w-lg rounded-2xl shadow-lg"
           />
         </div>

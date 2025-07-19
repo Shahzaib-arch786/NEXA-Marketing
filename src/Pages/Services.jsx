@@ -3,7 +3,7 @@ import Cards from '../Components/Cards';
 
 const Services = () => {
   return (
-    <div className="bg-white px-4 py-6">
+    <div className="bg-white px-4 py-6" id='Services'>
       <h1 className="text-3xl md:text-4xl text-center text-gray-700 font-bold mb-4">
         Our <span className="text-cyan-600">Services</span>
       </h1>
@@ -21,7 +21,7 @@ const Services = () => {
           title="Page Creation & Management"
           description="We create and manage your web pages to ensure a seamless online presence."
           button="Learn More"
-          link=""
+          link="PageManagement"
         />
         <Cards
           imgSrc="src/assets/adsCamp.jpg"
@@ -30,7 +30,7 @@ const Services = () => {
           description="We design and manage effective ad campaigns to boost your online
             visibility."
           button="Learn More"
-          link=""
+          link="AdCampaignManagement"
         />
         <Cards
           imgSrc="src/assets/followers.jpg"
@@ -39,7 +39,7 @@ const Services = () => {
           description="We help increase your social media followers through targeted
             strategies."
           button="Learn More"
-          link=""
+          link="FollowersBoosting"
         />
         <Cards
           imgSrc="src/assets/professional post.jpg"
@@ -48,7 +48,7 @@ const Services = () => {
           description=" We create visually appealing and engaging posts for your social
             media."
           button="Learn More"
-          link=""
+          link="PostDesign"
         />
         <Cards
           imgSrc="src/assets/social media.jpg"
@@ -57,7 +57,7 @@ const Services = () => {
           description="We develop tailored social media strategies to enhance your brand
             presence."
           button="Learn More"
-          link=""
+          link="SMMS"
         />
         <Cards
           imgSrc="src/assets/analytics.jpg"
@@ -66,7 +66,7 @@ const Services = () => {
           description=" We provide in-depth analytics and reporting to track your social
             media performance."
           button="Learn More"
-          link=""
+          link="AnalyticsReporting"
         />
       </div>
     </div>

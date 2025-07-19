@@ -2,8 +2,9 @@ import React from 'react';
 
 const WhyUs = () => {
   return (
-    <div className="bg-white px-4 py-6">
-      <h1 className="text-2xl md:text-4xl text-center font-bold text-gray-950 mb-6 md:mb-10">
+    <div className="bg-white px-4 py-6" id='WhyUs'>
+      <h1 className="text-2xl md:text-4xl text-center font-bold text-gray-950 mb-6 md:mb-10
+      motion-present-oscillate motion-preset-rebound-down">
         Why Choose Us As Your{' '}
         <span className="text-cyan-600">Digital media</span> Partner In
         Pakistan!
@@ -14,6 +15,7 @@ const WhyUs = () => {
             src="src/assets/character1.jpg"
             className="w-full max-w-xs md:max-w-sm rounded-lg mx-auto"
             alt="Character"
+            loading='lazy'
           />
           <div className="w-full">
             <h1 className="text-xl md:text-3xl font-bold text-gray-700 mb-3 md:mb-4">

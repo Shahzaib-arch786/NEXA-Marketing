@@ -3,7 +3,7 @@ import Button from '../Components/Button';
 
 const OurCommit = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id='Commitment'>
       <h1 className="text-4xl md:text-5xl text-center text-gray-700 font-bold pt-10">
         Our <span className="text-cyan-600">Commitment</span>
       </h1>
@@ -13,6 +13,7 @@ const OurCommit = () => {
             src="src/assets/commitment.jpg"
             className="w-full max-w-xs md:max-w-sm rounded-lg mb-6 lg:mb-0 lg:mr-10"
             alt="Commitment"
+            loading='lazy'
           />
           <div className="w-full lg:w-auto lg:ml-10 lg:mr-20">
             <h1 className="text-2xl md:text-3xl font-bold text-gray-700">Commitment With You</h1>
@@ -29,7 +30,7 @@ const OurCommit = () => {
               <span className="text-cyan-600 font-bold">Let’s work together!</span>
               <br />
             </p>
-            <Button btnText="Contact Us" />
+            <a href="#Contact"><Button btnText="Contact Us" /></a>
           </div>
         </div>
       </div>
