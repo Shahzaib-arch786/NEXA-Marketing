@@ -8,6 +8,9 @@ import FollowersBoosting from './Pages/FollowersBoosting';
 import PostDesign from './Pages/PostDesign';
 import SMMStrategies from './Pages/SMMStratgies';
 import AnalyticsReporting from './Pages/AnalyticsReporting';
+import StarterPage from './Pages/StarterPage';
+import ProfessionalPage from './Pages/ProfessionalPage';
+import EnterprisePage from './Pages/EnterprisePage';
 
 function App() {
   const [darkMode, setDarkMode] = useState(
@@ -36,11 +39,17 @@ function App() {
           />
 
           <Route path='/PageManagement' element={<PageManagement />} />
-          <Route path='/AdCampaignManagement' element={<AdCampaignManagement />} />
+          <Route
+            path='/AdCampaignManagement'
+            element={<AdCampaignManagement />}
+          />
           <Route path='/FollowersBoosting' element={<FollowersBoosting />} />
           <Route path='/PostDesign' element={<PostDesign />} />
           <Route path='/SMMS' element={<SMMStrategies />} />
           <Route path='/AnalyticsReporting' element={<AnalyticsReporting />} />
+          <Route path='/pricing/starter' element={<StarterPage />} />
+          <Route path='/pricing/professional' element={<ProfessionalPage />} />
+          <Route path='/pricing/enterprise' element={<EnterprisePage />} />
         </Routes>
       </Router>
     </>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const plans = [
   {
@@ -38,7 +39,7 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className="bg-white min-h-screen px-6 py-16" id='Price'>
+    <div className="bg-white min-h-screen px-6 py-16" id="Price">
       <div className="text-center mb-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
           Choose Your <span className="text-cyan-600">Plan</span>
@@ -73,15 +74,16 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button
-              className={`w-full py-2 px-4 rounded-lg font-semibold hover:bg-white hover:text-gray-900 ${
+            <Link
+              to={`/pricing/${plan.title.toLowerCase()}`}
+              className={`block text-center w-full py-2 px-4 rounded-lg font-semibold transition ${
                 plan.popular
                   ? 'bg-white text-cyan-600 hover:bg-gray-100'
                   : 'bg-cyan-600 text-white hover:bg-cyan-700'
               }`}
             >
               Get Started
-            </button>
+            </Link>
           </div>
         ))}
       </div>

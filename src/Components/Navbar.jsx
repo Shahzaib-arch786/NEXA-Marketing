@@ -7,7 +7,6 @@ import {
   CircleUser,
   ChartNoAxesCombined,
 } from 'lucide-react';
-import PageManagement from '../Pages/PageManagement';
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <div>
@@ -41,16 +40,40 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <a href='#Services'>Our services</a>
                 <ul className='p-2'>
                   <li>
-                    <a>
+                    <Link to="PageManagement">
                       <Cpu size={16} className='mr-2 inline' />
-                      Search Engine Optimization
-                    </a>
+                      Page Creation & Management
+                    </Link>
                   </li>
                   <li>
-                    <a>
+                    <Link to="AdCampaignManagement">
                       <BellRing size={16} className='mr-2 inline' />
-                      Brand Marketing
-                    </a>
+                      Ad Campaign Creation & Management
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="FollowersBoosting">
+                      <BellRing size={16} className='mr-2 inline' />
+                      Followers Boosting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="PostDesign">
+                      <BellRing size={16} className='mr-2 inline' />
+                      Professional Post Design
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="SMMS">
+                      <BellRing size={16} className='mr-2 inline' />
+                      Social Media Marketing & Strategies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="AnalyticsReporting">
+                      <BellRing size={16} className='mr-2 inline' />
+                      Analytics & Reporting
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -58,7 +81,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 <a href='#AboutUs'>About Us</a>
               </li>
               <li>
-                <a href='#ContactUs'>Contact Us</a>
+                <a href='#Contact'>Contact Us</a>
               </li>
             </ul>
           </div>
@@ -151,7 +174,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </li>
             <li>
               <a
-                href='#ContactUs'
+                href='#Contact'
                 className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
               >
                 <CircleUser color='grey' size={18} />
