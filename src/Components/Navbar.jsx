@@ -133,7 +133,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                       to="FollowersBoosting"
                       className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
                     >
-                      <BellRing size={16} className='mr-2' />
+                      <BellRing size={14} className='mr-2' />
                       Followers Boosting
                     </Link>
                   </li>
@@ -142,7 +142,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                       to="PostDesign"
                       className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
                     >
-                      <BellRing size={16} className='mr-2' />
+                      <ChartNoAxesCombined color='grey' size={14} />
                       Professional Post Design
                     </Link>
                   </li>
@@ -151,7 +151,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                       to="SMMS"
                       className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
                     >
-                      <Cpu size={16} className='mr-2' />
+                      <Cpu size={14} className='mr-2' />
                       Social Media Marketing & Strategies
                     </Link>
                   </li>
@@ -160,7 +160,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                       to="AnalyticsReporting"
                       className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
                     >
-                      <BellRing size={16} className='mr-2' />
+                      <BellRing size={14} className='mr-2' />
                       Analytics & Reporting
                     </Link>
                   </li>
