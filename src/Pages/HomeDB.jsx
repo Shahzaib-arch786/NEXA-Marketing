@@ -1,10 +1,13 @@
 import React from 'react';
+import SplashCursor from '../Components/BGSplashCursor';
 
 const HomeDB = () => {
   return (
-    <div className='bg-white' id='Home'>
+    <div className='bg-gray-100 z-0' id='Home'>
+    {/* <SplashCursor/> */}
       <div className='grid min-h-screen grid-cols-1 items-center gap-8 px-6 py-12 md:grid-cols-2'>
         {/* Text Section */}
+        
         <div className='motion-preset-focus-lg order-2 text-gray-800 md:order-1'>
           <h1 className='mb-6 text-3xl font-bold sm:text-4xl lg:text-5xl'>
             <span className='motion-preset-slide-down-left-lg'>

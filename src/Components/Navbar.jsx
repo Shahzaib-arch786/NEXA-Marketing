@@ -6,6 +6,7 @@ import {
   BellRing,
   CircleUser,
   ChartNoAxesCombined,
+  CircleDollarSign
 } from 'lucide-react';
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
@@ -83,13 +84,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <li>
                 <a href='#Contact'>Contact Us</a>
               </li>
+              <li>
+                <a href='#Pricing'>Pricing</a>
+              </li>
             </ul>
           </div>
           <a className='btn btn-ghost text-2xl hover:bg-gray-700'>Nexa</a>
         </div>
 
         <div className='navbar-center hidden md:flex'>
-          <ul className='menu menu-horizontal gap-6 px-1 md:gap-8 lg:gap-12'>
+          <ul className='menu menu-horizontal gap-5 px-1 md:gap-8 lg:gap-10'>
             <li>
               <a
                 href='#Home'
@@ -179,6 +183,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               >
                 <CircleUser color='grey' size={18} />
                 <span className='hidden sm:inline'>Contact Us</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href='#Pricing'
+                className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
+              >
+                <CircleDollarSign color='grey' size={18} />
+                <span className='hidden sm:inline'>Pricing</span>
               </a>
             </li>
           </ul>
