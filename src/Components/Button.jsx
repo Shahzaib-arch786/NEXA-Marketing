@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Button = ({btnText, onClick}) => {
 
-    
+
   return (
     <div className="w-full flex justify-center">
       <button
@@ -12,7 +12,7 @@ const Button = ({btnText, onClick}) => {
         {btnText}
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

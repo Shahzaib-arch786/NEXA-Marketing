@@ -2,4 +2,8 @@
 @plugin "daisyui";
 @plugin "tailwindcss-motion";
 
+html {
+  scroll-behavior: smooth;
+}
+
 

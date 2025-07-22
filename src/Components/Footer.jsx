@@ -1,5 +1,5 @@
-import React from "react";
-import { Twitter, Instagram, Facebook, Github, Shield, Star, Briefcase, Smartphone, Monitor, Apple } from "lucide-react";
+import React from 'react';
+import { Twitter, Instagram, Facebook, Github, Shield, Star, Briefcase, Smartphone, Monitor, Apple } from 'lucide-react';
 
 const Footer = () => {
   return (

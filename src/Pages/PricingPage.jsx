@@ -1,44 +1,45 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const plans = [
   {
-    title: "Starter",
-    price: "$ 49.99",
+    title: 'Starter',
+    price: '$ 49.99',
     features: [
-      "Basic SEO Setup",
-      "1 Social Media Platform",
-      "Monthly Reporting",
-      "Email Support",
+      'Basic SEO Setup',
+      '1 Social Media Platform',
+      'Monthly Reporting',
+      'Email Support',
     ],
   },
   {
-    title: "Professional",
-    price: "$ 99.99",
+    title: 'Professional',
+    price: '$ 99.99',
     features: [
-      "Advanced SEO Optimization",
-      "3 Social Media Platforms",
-      "Weekly Reports",
-      "Ad Campaign Management",
-      "Priority Support",
+      'Advanced SEO Optimization',
+      '3 Social Media Platforms',
+      'Weekly Reports',
+      'Ad Campaign Management',
+      'Priority Support',
     ],
     popular: true,
   },
   {
-    title: "Enterprise",
-    price: "$ 199.99",
+    title: 'Enterprise',
+    price: '$ 199.99',
     features: [
-      "Complete Digital Strategy",
-      "All Social Media Platforms",
-      "Daily Reporting & Insights",
-      "Dedicated Account Manager",
-      "24/7 Premium Support",
+      'Complete Digital Strategy',
+      'All Social Media Platforms',
+      'Daily Reporting & Insights',
+      'Dedicated Account Manager',
+      '24/7 Premium Support',
     ],
   },
 ];
 
 const Pricing = () => {
   return (
-    <div className="bg-white min-h-screen px-6 py-16">
+    <div id="Pricing" className="bg-white min-h-screen px-6 py-16">
       <div className="text-center mb-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
           Choose Your <span className="text-cyan-600">Plan</span>
@@ -52,10 +53,10 @@ const Pricing = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 ${
+            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white ${
               plan.popular
-                ? "bg-cyan-600 text-white border-cyan-600 scale-105"
-                : "bg-white text-gray-800 border-gray-200"
+                ? 'bg-cyan-600 text-white border-cyan-600 scale-105'
+                : 'bg-white text-gray-800 border-gray-200'
             }`}
           >
             {plan.popular && (
@@ -73,15 +74,16 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <button
-              className={`w-full py-2 px-4 rounded-lg font-semibold ${
+            <Link
+              to={`/pricing/${plan.title.toLowerCase()}`}
+              className={`block text-center w-full py-2 px-4 rounded-lg font-semibold transition ${
                 plan.popular
-                  ? "bg-white text-cyan-600 hover:bg-gray-100"
-                  : "bg-cyan-600 text-white hover:bg-cyan-700"
+                  ? 'bg-white text-cyan-600 hover:bg-gray-100'
+                  : 'bg-cyan-600 text-white hover:bg-cyan-700'
               }`}
             >
               Get Started
-            </button>
+            </Link>
           </div>
         ))}
       </div>
