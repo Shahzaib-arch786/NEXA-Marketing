@@ -7,17 +7,17 @@ const Footer = () => {
       <footer className="footer flex flex-col sm:flex-row flex-wrap bg-neutral text-neutral-content p-6 sm:p-10 gap-6 sm:gap-10">
         <nav className="flex-1 min-w-[150px]">
           <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">Page Creation & Management</a>
+          <a className="link link-hover">Ad Campaign Creation & Management</a>
+          <a className="link link-hover">Followers Boosting</a>
+          <a className="link link-hover">Professional Post Design</a>
         </nav>
         <nav className="flex-1 min-w-[150px]">
           <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
+          <a className="link link-hover" href='#AboutUs'>About us</a>
+          <a className="link link-hover" href='#Contact'>Contact</a>
           <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          
         </nav>
         <nav className="flex-1 min-w-[150px]">
           <h6 className="footer-title">Legal</h6>

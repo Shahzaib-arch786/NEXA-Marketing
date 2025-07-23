@@ -1,18 +1,37 @@
 import React from 'react';
-import SplashCursor from '../Components/BGSplashCursor';
+import Orb from '../Components/ORB';
+import ScrollVelocity from '../Components/Scrollingtext';
+
+const velocity = 2; // Set your desired scroll velocity
 
 const HomeDB = () => {
   return (
-    <div className='bg-gray-100 z-0' id='Home'>
-    {/* <SplashCursor/> */}
-      <div className='grid min-h-screen grid-cols-1 items-center gap-8 px-6 py-12 md:grid-cols-2'>
+    <div
+      className='pointer-events-auto relative z-0 overflow-hidden bg-gray-900'
+      id='Home'
+    >
+      {/* Orb background */}
+      <div className='absolute inset-0 -z-10'>
+        <Orb
+          hoverIntensity={0.5}
+          rotateOnHover={true}
+          hue={0}
+          forceHoverState={true}
+        />
+      </div>
+
+      {/* Main content */}
+      <div className='relative z-10 mt-6 flex min-h-screen flex-wrap items-center gap-8 px-6 py-24 text-center'>
         {/* Text Section */}
-        
-        <div className='motion-preset-focus-lg order-2 text-gray-800 md:order-1'>
-          <h1 className='mb-6 text-3xl font-bold sm:text-4xl lg:text-5xl'>
+        <div className='motion-preset-focus-lg order-2 text-white md:order-1'>
+          <h1 className='mb-6 text-3xl font-bold sm:justify-center sm:text-4xl lg:text-5xl'>
             <span className='motion-preset-slide-down-left-lg'>
-              Welcome To <span className='text-cyan-600'>NEXA</span>
-            </span>{' '}
+              Welcome To{' '}
+              <span className='animate-pulse text-6xl text-cyan-400'>
+                <br />
+                NEXA
+              </span>
+            </span>
             <br />
             Grow Your Business with Expert Digital Marketing
           </h1>
@@ -30,23 +49,25 @@ const HomeDB = () => {
           </p>
           <a
             href='#Contact'
-            className='btn border-gray-700 bg-transparent text-gray-700 hover:bg-gray-800 hover:text-white'
+            className='btn border-indigo-700 bg-transparent text-white hover:bg-gray-800 hover:text-white'
           >
             Get Free Consultation
           </a>
         </div>
 
         {/* Image Section */}
-        <div className='-motion-translate-x-in-100 motion-translate-y-in-75 motion-ease order-1 flex justify-center sm:order-3 md:order-2'>
+        {/* <div className='order-1 flex justify-center sm:order-3 md:order-2'>
           <img
             src='src/assets/DB2.jpg'
             alt='Marketing'
             loading='lazy'
             className='w-full max-w-md rounded-2xl shadow-lg md:max-w-lg'
           />
-        </div>
+        </div> */}
       </div>
+     
     </div>
+    
   );
 };
 
