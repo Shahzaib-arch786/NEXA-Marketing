@@ -8,12 +8,14 @@ import Services from './Services';
 import ContactUs from './ContactUs';
 import AboutUs from './AboutUs';
 import Pricing from './PricingPage';
+import Scrolling from './scrolling';
 
 const Dashboard = ({darkMode, setDarkMode }) => {
   return (
     <div>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <HomeDB />
+      <Scrolling/>
       <WhyUs/>
       <OurCommit/>
       <AboutUs/>
