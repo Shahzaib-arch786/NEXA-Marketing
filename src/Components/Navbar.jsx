@@ -89,7 +89,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </li>
             </ul>
           </div>
-          <a className='btn btn-ghost text-2xl hover:bg-gray-700'>Nexa</a>
+          <a href='#Home' className='btn btn-ghost text-2xl hover:text-cyan-700 transition duration-200 hover:scale-105 hover: bg-transparent border-none'>Nexa</a>
         </div>
 
         <div className='navbar-center hidden md:flex'>
