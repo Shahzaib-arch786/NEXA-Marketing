@@ -8,7 +8,7 @@ const AdCampaignManagement = () => {
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/adsCamp.jpg')" }} // Replace with actual image path
+        style={{ backgroundImage: "url('src/assets/adsCamp.webp')" }} // Replace with actual image path
       >
         <div className='bg-opacity-60 absolute inset-0 bg-black/50'></div>
         <div className='relative z-0 max-w-3xl px-6 text-center text-white'>

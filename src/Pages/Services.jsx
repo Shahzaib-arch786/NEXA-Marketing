@@ -16,7 +16,7 @@ const Services = () => {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-5">
         <Cards
-          imgSrc="src/assets/pageManagement.jpg"
+          imgSrc="src/assets/pageManagement.webp"
           imgAlt="Page Creation and Management Services"
           title="Page Creation & Management"
           description="We create and manage your web pages to ensure a seamless online presence."
@@ -24,7 +24,7 @@ const Services = () => {
           link="PageManagement"
         />
         <Cards
-          imgSrc="src/assets/adsCamp.jpg"
+          imgSrc="src/assets/adsCamp.webp"
           imgAlt="Ad Campaign Creation & Management Services"
           title="Ad Campaign Creation & Management"
           description="We design and manage effective ad campaigns to boost your online
@@ -33,7 +33,7 @@ const Services = () => {
           link="AdCampaignManagement"
         />
         <Cards
-          imgSrc="src/assets/followers.jpg"
+          imgSrc="src/assets/followers.webp"
           imgAlt="Followers Boosting Services"
           title="Followers Boosting"
           description="We help increase your social media followers through targeted
@@ -42,7 +42,7 @@ const Services = () => {
           link="FollowersBoosting"
         />
         <Cards
-          imgSrc="src/assets/professional post.jpg"
+          imgSrc="src/assets/professional post.webp"
           imgAlt="Professional Post Design Services"
           title="Professional Post Design"
           description=" We create visually appealing and engaging posts for your social
@@ -51,7 +51,7 @@ const Services = () => {
           link="PostDesign"
         />
         <Cards
-          imgSrc="src/assets/social media.jpg"
+          imgSrc="src/assets/social media.webp"
           imgAlt="Social Media Strategy Services"
           title="Social Media Strategy"
           description="We develop tailored social media strategies to enhance your brand
@@ -60,7 +60,7 @@ const Services = () => {
           link="SMMS"
         />
         <Cards
-          imgSrc="src/assets/analytics.jpg"
+          imgSrc="src/assets/analytics.webp"
           imgAlt="Analytics & Reporting Services"
           title="Analytics & Reporting"
           description=" We provide in-depth analytics and reporting to track your social

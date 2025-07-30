@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Components/Footer';
-import premiumPlan from '../assets/premiumPlan.jpg'
+import premiumPlan from '../assets/premiumPlan.webp'
 
 const ProfessionalPage = () => {
   return (

@@ -10,7 +10,7 @@ const OurCommit = () => {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col-reverse lg:flex-row-reverse items-center lg:items-start px-4 md:px-8">
           <img
-            src="src/assets/commitment.png"
+            src="src/assets/commitment.webp"
             className="w-full max-w-xs md:max-w-sm rounded-lg mb-6 lg:mb-0 lg:mr-10"
             alt="Commitment"
             loading='lazy'

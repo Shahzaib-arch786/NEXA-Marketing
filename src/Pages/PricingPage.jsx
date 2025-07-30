@@ -53,7 +53,7 @@ const Pricing = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white ${
+            className={`rounded-2xl shadow-lg p-8 border transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white  ${
               plan.popular
                 ? 'bg-cyan-600 text-white border-cyan-600 scale-105'
                 : 'bg-white text-gray-800 border-gray-200'

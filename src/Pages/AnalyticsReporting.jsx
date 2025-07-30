@@ -8,7 +8,7 @@ const AnalyticsReporting = () => {
       {/* <Navbar /> */}
       <div
         className="relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('src/assets/analytics.jpg')" }}
+        style={{ backgroundImage: "url('src/assets/analytics.webp')" }}
       >
         <div className="absolute inset-0 bg-black/60 bg-opacity-60"></div>
         <div className="relative z-0 max-w-3xl px-6 text-center text-white">

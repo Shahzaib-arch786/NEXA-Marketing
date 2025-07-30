@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Components/Footer';
-import enterprisePlan from '../assets/enterprisePlan.jpg'
+import enterprisePlan from '../assets/enterprisePlan.webp'
 
 const EnterprisePage = () => {
   return (

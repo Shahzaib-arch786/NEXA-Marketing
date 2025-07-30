@@ -12,8 +12,8 @@ const WhyUs = () => {
       <div className="hero min-h-[60vh] md:min-h-screen flex items-center">
         <div className="hero-content flex flex-col lg:flex-row gap-6 md:gap-10 w-full">
           <img
-            src="src/assets/character1.jpg"
-            className="w-full max-w-xs md:max-w-sm rounded-lg mx-auto"
+            src="src/assets/character1.webp"
+            className="w-full max-w-xs md:max-w-sm rounded-lg mx-auto hover:scale-110 transition duration"
             alt="Character"
             loading='lazy'
           />
