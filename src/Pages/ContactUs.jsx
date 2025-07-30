@@ -51,7 +51,7 @@ const ContactUs = () => {
         </div>
         <div className="flex justify-center order-1 md:order-2">
           <img
-            src="src/assets/contactUs.jpg"
+            src="src/assets/contactUs.webp"
             alt="Contact Us"
             loading='lazy'
             className="w-full max-w-md md:max-w-lg rounded-2xl shadow-lg"

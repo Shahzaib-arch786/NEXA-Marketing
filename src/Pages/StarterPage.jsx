@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Components/Footer';
-import starterPlan from '../assets/starterPlan.jpg';
+import starterPlan from '../assets/starterPlan.webp';
 
 
 const StarterPage = () => {

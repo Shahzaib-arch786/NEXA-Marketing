@@ -8,7 +8,7 @@ const PageManagement = () => {
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/pageManagement.jpg')" }}
+        style={{ backgroundImage: "url('src/assets/pageManagement.webp')" }}
       >
         <div className='bg-opacity-60 absolute inset-0 bg-black/50'></div>{' '}
         {/* Optional dark overlay */}

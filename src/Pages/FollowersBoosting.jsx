@@ -8,7 +8,7 @@ const FollowersBoosting = () => {
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/followers.jpg')" }} // Replace with your image path
+        style={{ backgroundImage: "url('src/assets/followers.webp')" }} // Replace with your image path
       >
         <div className='absolute inset-0 bg-black/60'></div>
         <div className='relative z-0 max-w-3xl px-6 text-center text-white'>
