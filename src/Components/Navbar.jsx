@@ -11,7 +11,7 @@ import {
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <div>
-      <div className='navbar fixed z-10 w-full bg-white text-gray-700 shadow-sm'>
+      <div className='navbar absolute z-10 w-full bg-transparent text-gray-300'>
         <div className='navbar-start'>
           <div className='dropdown lg:hidden'>
             <div tabIndex={0} role='button' className='btn btn-ghost'>
@@ -32,7 +32,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content rounded-box z-10 mt-3 w-52 bg-white p-2 shadow'
+              className='menu menu-sm dropdown-content rounded-box z-10 mt-3 w-52 bg-gray-800 text-white p-2 shadow'
             >
               <li>
                 <a href='#Home'>Home</a>
@@ -89,7 +89,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </li>
             </ul>
           </div>
-          <a href='#Home' className='btn btn-ghost text-2xl hover:text-cyan-700 transition duration-200 hover:scale-105 hover: bg-transparent border-none'>Nexa</a>
+          <a href='#Home' className='btn btn-ghost shadow-none text-2xl hover:text-cyan-700 transition duration-200 hover:scale-105 hover:bg-transparent border-none'>Nexa</a>
         </div>
 
         <div className='navbar-center hidden md:flex'>
@@ -97,7 +97,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <a
                 href='#Home'
-                className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
+                className='flex items-center gap-1 rounded-4xl hover:text-cyan-100 hover:bg-gray-800 transition duration-200'
               >
                 <House color='grey' size={18} />
                 <span className='hidden sm:inline'>Home</span>
@@ -105,15 +105,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </li>
             <li className='relative'>
               <details>
-                <summary className='flex cursor-pointer items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'>
+                <summary className='flex cursor-pointer items-center gap-1 rounded-4xl hover:bg-gray-800 hover:text-cyan-100'>
                   <Cpu color='grey' size={18} />
                   <span className='hidden sm:inline'>Our Services</span>
                 </summary>
-                <ul className='absolute left-0 z-20 mt-2 w-64 rounded-lg border border-gray-200 bg-white py-2 shadow-lg'>
+                <ul className='absolute left-0 z-20 mt-2 w-64 rounded-lg border border-gray-800 bg-gray-800 hover:border-cyan-700 py-2 shadow-lg'>
                   <li>
                     <Link
                       to='PageManagement'
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <ChartNoAxesCombined color='grey' size={14} />
                       Page Creation & Management
@@ -122,7 +122,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   <li>
                     <Link
                       to='AdCampaignManagement'
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <Cpu size={16} className='mr-2' />
                       Ad Campaign Creation & Management
@@ -131,7 +131,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   <li>
                     <Link
                       to="FollowersBoosting"
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <BellRing size={14} className='mr-2' />
                       Followers Boosting
@@ -140,7 +140,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   <li>
                     <Link
                       to="PostDesign"
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <ChartNoAxesCombined color='grey' size={14} />
                       Professional Post Design
@@ -149,7 +149,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   <li>
                     <Link
                       to="SMMS"
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <Cpu size={14} className='mr-2' />
                       Social Media Marketing & Strategies
@@ -158,7 +158,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   <li>
                     <Link
                       to="AnalyticsReporting"
-                      className='flex items-center rounded px-4 py-2 transition hover:bg-cyan-50 hover:text-cyan-700'
+                      className='flex items-center rounded px-4 py-2 transition hover:bg-gray-800 hover:text-cyan-100'
                     >
                       <BellRing size={14} className='mr-2' />
                       Analytics & Reporting
@@ -170,7 +170,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <a
                 href='#AboutUs'
-                className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
+                className='flex items-center gap-1 rounded-4xl hover:bg-gray-800 hover:text-cyan-100'
               >
                 <BellRing color='grey' size={18} />
                 <span className='hidden sm:inline'>About Us</span>
@@ -179,7 +179,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <a
                 href='#Contact'
-                className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
+                className='flex items-center gap-1 rounded-4xl hover:bg-gray-800 hover:text-cyan-100'
               >
                 <CircleUser color='grey' size={18} />
                 <span className='hidden sm:inline'>Contact Us</span>
@@ -188,7 +188,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <li>
               <a
                 href='#Pricing'
-                className='flex items-center gap-1 rounded-4xl hover:bg-cyan-100 hover:text-gray-900'
+                className='flex items-center gap-1 rounded-4xl hover:bg-gray-800 hover:text-cyan-100'
               >
                 <CircleDollarSign color='grey' size={18} />
                 <span className='hidden sm:inline'>Pricing</span>
@@ -199,7 +199,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className='navbar-end flex items-center gap-2'>
           <a
             href='#Contact'
-            className='btn border border-gray-600 bg-transparent px-2 text-xs text-gray-700 transition duration-300 hover:bg-gray-800 hover:text-white md:px-4 md:text-base'
+            className='btn border border-gray-600 bg-gray-300 px-2 text-xs text-gray-700 transition duration-300 hover:bg-gray-800 hover:text-white md:px-4 md:text-base'
           >
             Book a free call
           </a>
