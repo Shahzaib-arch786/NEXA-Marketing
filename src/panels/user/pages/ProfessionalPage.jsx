@@ -1,22 +1,22 @@
 import React from 'react';
-import Footer from '../Components/Footer';
-import enterprisePlan from '../assets/enterprisePlan.webp'
+import Footer from '../../../shared/components/Footer';
+import premiumPlan from '../../../shared/assets/premiumPlan.webp'
 
-const EnterprisePage = () => {
+const ProfessionalPage = () => {
   return (
     <div>
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat z-10'
-        style={{ backgroundImage: `url(${enterprisePlan})` }}
+        style={{ backgroundImage: `url(${premiumPlan})` }}
       >
         <div className='absolute inset-0 bg-black/60'></div>
         <div className='relative z-0 max-w-3xl px-6 text-center text-white'>
-          <h1 className='mb-6 text-5xl font-bold'>Enterprise Plan</h1>
+          <h1 className='mb-6 text-5xl font-bold'>Professional Plan</h1>
           <p className='mb-6 text-lg'>
-            Tailored for agencies, large teams, and businesses that need complete social media management and high-impact results.
+            Ideal for growing businesses and influencers who want advanced tools, expert strategies, and consistent growth on social media platforms.
           </p>
           <button className='btn hover:bg-transparent hover:text-white transition duration-300 hover:scale-105'>
-            Start Enterprise Plan
+            Upgrade to Professional!
           </button>
         </div>
       </div>
@@ -24,40 +24,40 @@ const EnterprisePage = () => {
       <section className='bg-white px-6 py-16 lg:px-20'>
         <div className='mx-auto max-w-6xl'>
           <h2 className='mb-10 text-center text-4xl font-bold'>
-            Enterprise Plan <span className='text-cyan-600'>Includes</span>
+            Professional Plan <span className='text-cyan-600'>Includes</span>
           </h2>
 
           <div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Dedicated Account Manager</h3>
-              <p>Work with a dedicated expert who handles your strategy, content, and reporting end-to-end.</p>
+              <h3 className='text-2xl font-semibold mb-2'>Advanced Growth Strategies</h3>
+              <p>Leverage data-driven techniques and targeted growth campaigns to attract high-value followers.</p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Daily Content Scheduling</h3>
-              <p>Our team creates, curates, and schedules posts daily across platforms based on trends and data.</p>
+              <h3 className='text-2xl font-semibold mb-2'>Custom Content Calendar</h3>
+              <p>A monthly posting plan tailored to your niche and audience for better consistency and performance.</p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Performance & Competitor Analysis</h3>
-              <p>Deep insights into your metrics and competition to continually optimize your strategy.</p>
+              <h3 className='text-2xl font-semibold mb-2'>Hashtag & Caption Support</h3>
+              <p>Get curated hashtag sets and engaging captions that improve reach and interaction.</p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>24/7 Support</h3>
-              <p>Round-the-clock assistance for strategy changes, urgent edits, and campaign support.</p>
+              <h3 className='text-2xl font-semibold mb-2'>Bi-Weekly Performance Reports</h3>
+              <p>Track progress and insights with detailed analytics every two weeks.</p>
             </div>
           </div>
 
           <div className='mt-16 text-center'>
             <h3 className='text-3xl font-bold mb-4'>
-              Why Go for the <span className='text-cyan-600'>Enterprise Plan?</span>
+              Why Choose the <span className='text-cyan-600'>Professional Plan?</span>
             </h3>
             <p className='mx-auto max-w-3xl text-lg'>
-              Designed for large-scale operations, the Enterprise Plan guarantees complete management, high ROI, and hands-free execution with maximum results.
+              The Professional Plan offers a well-rounded strategy with expert assistance, designed for those who are serious about turning social presence into business success.
             </p>
             <button className='btn bg-cyan-500 mt-8 text-lg text-white hover:bg-cyan-700'>
-              Book a Consultation
+              Go Professional Now
             </button>
           </div>
         </div>
@@ -68,4 +68,4 @@ const EnterprisePage = () => {
   );
 };
 
-export default EnterprisePage;
+export default ProfessionalPage;

@@ -1,6 +1,6 @@
 import React from 'react';
-import Orb from '../Components/ORB';
-import ScrollVelocity from '../Components/Scrollingtext';
+import Orb from '../../../shared/components/ORB';
+import ScrollVelocity from '../../../shared/components/Scrollingtext';
 
 const velocity = 2; // Set your desired scroll velocity
 
@@ -58,7 +58,7 @@ const HomeDB = () => {
         {/* Image Section */}
         {/* <div className='order-1 flex justify-center sm:order-3 md:order-2'>
           <img
-            src='src/assets/DB2.jpg'
+            src='src/shared/assets/DB2.webp'
             alt='Marketing'
             loading='lazy'
             className='w-full max-w-md rounded-2xl shadow-lg md:max-w-lg'

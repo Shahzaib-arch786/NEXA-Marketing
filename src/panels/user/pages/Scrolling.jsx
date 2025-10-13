@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollVelocity from '../Components/Scrollingtext'
+import ScrollVelocity from '../../../shared/components/Scrollingtext'
 
 const Scrolling = () => {
   return (

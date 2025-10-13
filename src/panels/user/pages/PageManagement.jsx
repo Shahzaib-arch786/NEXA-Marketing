@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from '../../../shared/components/Navbar';
+import Footer from '../../../shared/components/Footer';
 
 const PageManagement = () => {
   return (
@@ -8,7 +8,7 @@ const PageManagement = () => {
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/pageManagement.webp')" }}
+        style={{ backgroundImage: "url('src/shared/assets/pageManagement.webp')" }}
       >
         <div className='bg-opacity-60 absolute inset-0 bg-black/50'></div>{' '}
         {/* Optional dark overlay */}
