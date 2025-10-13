@@ -1,23 +1,23 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from '../../../shared/components/Navbar';
+import Footer from '../../../shared/components/Footer';
 
-const AdCampaignManagement = () => {
+const FollowersBoosting = () => {
   return (
     <div>
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/adsCamp.webp')" }} // Replace with actual image path
+        style={{ backgroundImage: "url('src/shared/assets/followers.webp')" }} // Replace with your image path
       >
-        <div className='bg-opacity-60 absolute inset-0 bg-black/50'></div>
+        <div className='absolute inset-0 bg-black/60'></div>
         <div className='relative z-0 max-w-3xl px-6 text-center text-white'>
-          <h1 className='mb-6 text-5xl font-bold'>Ad Campaign Creation & Management</h1>
+          <h1 className='mb-6 text-5xl font-bold'>Followers Boosting Services</h1>
           <p className='mb-6 text-lg'>
-            We plan, launch, and manage powerful ad campaigns across Google, Facebook, Instagram, and more — all optimized for ROI and business growth.
+            Increase your social media presence with real, organic followers who engage with your content and grow your brand visibility.
           </p>
           <button className='btn hover:bg-transparent hover:text-white transition duration-300 hover:scale-105'>
-            Launch Your Campaign
+            Boost My Followers
           </button>
         </div>
       </div>
@@ -30,50 +30,50 @@ const AdCampaignManagement = () => {
 
           <div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='mb-2 text-2xl font-semibold'>Google Ads Management</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Organic Growth Campaigns</h3>
               <p>
-                We create and manage high-converting Google Search and Display Ads to bring targeted traffic and maximize your return on investment.
+                We use targeted strategies to attract real followers who are genuinely interested in your brand — no bots, no fakes.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='mb-2 text-2xl font-semibold'>Facebook & Instagram Ads</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Influencer & Hashtag Marketing</h3>
               <p>
-                From story ads to carousel posts, we design creative, scroll-stopping ads that connect with your audience and generate qualified leads.
+                Reach wider audiences using niche influencers, trending hashtags, and community interaction to drive followers organically.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='mb-2 text-2xl font-semibold'>Campaign Strategy & Targeting</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Content Optimization</h3>
               <p>
-                We define clear goals, target the right audience, and choose the best platforms to make every rupee of your ad budget work smarter.
+                We audit and enhance your content for engagement — the right visuals, captions, and posting schedule to attract and retain followers.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='mb-2 text-2xl font-semibold'>A/B Testing & Optimization</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Platform-Specific Strategies</h3>
               <p>
-                We continuously test and tweak ad creatives, headlines, and targeting to improve CTR, reduce CPC, and maximize conversions.
+                Whether it’s Instagram, Facebook, or TikTok — we tailor your growth strategy to match the behavior of your target audience on each platform.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='mb-2 text-2xl font-semibold'>Real-Time Analytics & Reporting</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Progress Monitoring & Reporting</h3>
               <p>
-                Track performance with transparent analytics and easy-to-understand reports so you always know where your money is going.
+                Get detailed performance reports to see your follower growth, engagement stats, and recommendations for continuous improvement.
               </p>
             </div>
           </div>
 
           <div className='mt-16 text-center'>
-            <h3 className='mb-4 text-3xl font-bold'>
+            <h3 className='text-3xl font-bold mb-4'>
               Why It <span className='text-cyan-600'>Matters</span>
             </h3>
             <p className='mx-auto max-w-3xl text-lg'>
-              A well-executed ad campaign can transform your business. We ensure every campaign is backed by strategy, driven by data, and focused on results.
+              A growing and engaged follower base builds trust, expands your reach, and creates opportunities for sales, collaborations, and brand partnerships.
             </p>
             <button className='btn bg-cyan-500 mt-8 text-lg text-white hover:bg-cyan-700'>
-              Start Your Campaign Now
+              Get a Free Growth Plan
             </button>
           </div>
         </div>
@@ -84,4 +84,4 @@ const AdCampaignManagement = () => {
   );
 };
 
-export default AdCampaignManagement;
+export default FollowersBoosting;

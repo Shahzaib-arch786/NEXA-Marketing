@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../Components/Footer';
-import starterPlan from '../assets/starterPlan.webp';
+import Footer from '../../../shared/components/Footer';
+import starterPlan from '../../../shared/assets/starterPlan.webp';
 
 
 const StarterPage = () => {

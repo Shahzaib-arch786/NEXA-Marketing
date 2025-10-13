@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from '../../../shared/components/Navbar';
+import Footer from '../../../shared/components/Footer';
 
 const AnalyticsReporting = () => {
   return (
@@ -8,7 +8,7 @@ const AnalyticsReporting = () => {
       {/* <Navbar /> */}
       <div
         className="relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('src/assets/analytics.webp')" }}
+        style={{ backgroundImage: "url('src/shared/assets/analytics.webp')" }}
       >
         <div className="absolute inset-0 bg-black/60 bg-opacity-60"></div>
         <div className="relative z-0 max-w-3xl px-6 text-center text-white">

@@ -1,23 +1,23 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from '../../../shared/components/Navbar';
+import Footer from '../../../shared/components/Footer';
 
-const FollowersBoosting = () => {
+const PostDesign = () => {
   return (
     <div>
       {/* <Navbar /> */}
       <div
         className='relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat'
-        style={{ backgroundImage: "url('src/assets/followers.webp')" }} // Replace with your image path
+        style={{ backgroundImage: "url('src/shared/assets/professional post.webp')" }} // Replace with your actual image
       >
         <div className='absolute inset-0 bg-black/60'></div>
         <div className='relative z-0 max-w-3xl px-6 text-center text-white'>
-          <h1 className='mb-6 text-5xl font-bold'>Followers Boosting Services</h1>
+          <h1 className='mb-6 text-5xl font-bold'>Professional Post Design</h1>
           <p className='mb-6 text-lg'>
-            Increase your social media presence with real, organic followers who engage with your content and grow your brand visibility.
+            We design high-impact, branded social media posts that grab attention, reflect your identity, and drive engagement across all platforms.
           </p>
           <button className='btn hover:bg-transparent hover:text-white transition duration-300 hover:scale-105'>
-            Boost My Followers
+            Request a Design
           </button>
         </div>
       </div>
@@ -30,50 +30,50 @@ const FollowersBoosting = () => {
 
           <div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Organic Growth Campaigns</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Branded Social Media Posts</h3>
               <p>
-                We use targeted strategies to attract real followers who are genuinely interested in your brand — no bots, no fakes.
+                Posts designed to match your brand colors, fonts, and tone — helping your business stay consistent and recognizable across all platforms.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Influencer & Hashtag Marketing</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Event & Promo Graphics</h3>
               <p>
-                Reach wider audiences using niche influencers, trending hashtags, and community interaction to drive followers organically.
+                Launching a sale or event? We design promotional posts and banners that get people excited and ready to engage or take action.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Content Optimization</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Story, Reel & Vertical Designs</h3>
               <p>
-                We audit and enhance your content for engagement — the right visuals, captions, and posting schedule to attract and retain followers.
+                Vertical formats for Instagram/Facebook stories, reels, and TikToks that are visually optimized for mobile attention.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Platform-Specific Strategies</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Infographic & Carousel Posts</h3>
               <p>
-                Whether it’s Instagram, Facebook, or TikTok — we tailor your growth strategy to match the behavior of your target audience on each platform.
+                Educational and visually appealing posts that tell a story or explain a concept — perfect for carousel engagement.
               </p>
             </div>
 
             <div className='bg-base-100 rounded-lg border p-6 shadow-sm hover:scale-105 transition duration-200'>
-              <h3 className='text-2xl font-semibold mb-2'>Progress Monitoring & Reporting</h3>
+              <h3 className='text-2xl font-semibold mb-2'>Monthly Design Packages</h3>
               <p>
-                Get detailed performance reports to see your follower growth, engagement stats, and recommendations for continuous improvement.
+                Need regular content? Choose from flexible monthly packages with custom graphics delivered on time and ready to post.
               </p>
             </div>
           </div>
 
           <div className='mt-16 text-center'>
             <h3 className='text-3xl font-bold mb-4'>
-              Why It <span className='text-cyan-600'>Matters</span>
+              Why <span className='text-cyan-600'>Design Matters</span>
             </h3>
             <p className='mx-auto max-w-3xl text-lg'>
-              A growing and engaged follower base builds trust, expands your reach, and creates opportunities for sales, collaborations, and brand partnerships.
+              Professional post design isn’t just about looks — it builds trust, increases brand recognition, and drives more clicks, shares, and conversations.
             </p>
             <button className='btn bg-cyan-500 mt-8 text-lg text-white hover:bg-cyan-700'>
-              Get a Free Growth Plan
+              View Portfolio or Get Quote
             </button>
           </div>
         </div>
@@ -84,4 +84,4 @@ const FollowersBoosting = () => {
   );
 };
 
-export default FollowersBoosting;
+export default PostDesign;
